@@ -27,5 +27,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd authentication-system  # Navigate to authm directory
+        cd authm  # Navigate to authm directory
         python manage.py test
